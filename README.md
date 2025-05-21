@@ -38,7 +38,7 @@ This pipeline performs the following steps:
 
 Clone this repository:
 
-git clone https://github.com/Maroua2906/Wes_Analysis_Pipeline.git
+git clone https://github.com/Maroua2906/WES_Analysis_Pipeline_.git
 
 ### Usage
 bash scripts/wes_pipeline.sh
