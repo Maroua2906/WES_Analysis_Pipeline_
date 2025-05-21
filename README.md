@@ -1,4 +1,3 @@
-# WES_Analysis_Pipeline_
 # Whole Exome Sequencing Analysis Pipeline
 
 A bioinformatics pipeline for processing whole exome sequencing data aligned to the hg38/GRCh38 reference genome.
@@ -70,10 +69,6 @@ results/
 ```
 
 ## Important Notes
-- **Target regions**:  
-  By default, the sccript runs without BED file for genome-wide calling. To restrict to exome targets:  
-  -L /path/to/your_targets.bed  # Add to GATK commands
-
 - **Resource recommendations**:
   - Minimum 12GB RAM (adjust `-Xmx` in Java commands)
   - Multi-threading: Set `-t` (BWA) and `-nct` (GATK) 
